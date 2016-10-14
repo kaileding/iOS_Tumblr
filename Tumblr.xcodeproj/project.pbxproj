@@ -15,6 +15,7 @@
 		47005A831DAF3282002741F0 /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47005A821DAF3282002741F0 /* TumblrTests.swift */; };
 		47005A8E1DAF3283002741F0 /* TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47005A8D1DAF3283002741F0 /* TumblrUITests.swift */; };
 		479587401DAF38EB001A0947 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4795873F1DAF38EB001A0947 /* TableViewCell.swift */; };
+		853F35371DB0B9AE00DCBA7F /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F35361DB0B9AE00DCBA7F /* PhotoDetailsViewController.swift */; };
 		8CDD889C0D4546CA96330260 /* Pods_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77018543B5967F51D279D98E /* Pods_Tumblr.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		9A19DE205CCDC02A9167CDAB /* Pods_TumblrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35356D3E10E02602C25DDA4 /* Pods_TumblrUITests.framework */; };
 		D28BB41E9663BA63ACE31143 /* Pods_TumblrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E317589BA240C764DD0092EC /* Pods_TumblrTests.framework */; };
@@ -57,6 +58,7 @@
 		6A114B60F500112FED6CF4C3 /* Pods-Tumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr.release.xcconfig"; sourceTree = "<group>"; };
 		77018543B5967F51D279D98E /* Pods_Tumblr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCE784FB1A62B84281D0D3E /* Pods-Tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		853F35361DB0B9AE00DCBA7F /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		9E64DAC0DEC18286FA540545 /* Pods-TumblrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrTests/Pods-TumblrTests.release.xcconfig"; sourceTree = "<group>"; };
 		D35356D3E10E02602C25DDA4 /* Pods_TumblrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E317589BA240C764DD0092EC /* Pods_TumblrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,11 +133,12 @@
 			children = (
 				47005A6D1DAF3282002741F0 /* AppDelegate.swift */,
 				47005A6F1DAF3282002741F0 /* PhotosViewController.swift */,
+				4795873F1DAF38EB001A0947 /* TableViewCell.swift */,
+				853F35361DB0B9AE00DCBA7F /* PhotoDetailsViewController.swift */,
 				47005A711DAF3282002741F0 /* Main.storyboard */,
 				47005A741DAF3282002741F0 /* Assets.xcassets */,
 				47005A761DAF3282002741F0 /* LaunchScreen.storyboard */,
 				47005A791DAF3282002741F0 /* Info.plist */,
-				4795873F1DAF38EB001A0947 /* TableViewCell.swift */,
 			);
 			path = Tumblr;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853F35371DB0B9AE00DCBA7F /* PhotoDetailsViewController.swift in Sources */,
 				479587401DAF38EB001A0947 /* TableViewCell.swift in Sources */,
 				47005A701DAF3282002741F0 /* PhotosViewController.swift in Sources */,
 				47005A6E1DAF3282002741F0 /* AppDelegate.swift in Sources */,
@@ -508,6 +512,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -558,6 +563,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
